@@ -12,10 +12,27 @@
         -->
     </style>
 
-    <!-- Application theme. -->
+     Application theme.
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here.-->
+        <!--<color name="colorPrimary"></color>-->
+        <!--<color name="colorPrimaryDark">#303F9F</color>-->
+        <!--<color name="colorAccent">#FF4081</color>-->
+    <!--&ndash;&gt;-->
+        <!--<item name="colorPrimary">#3F51B5</item>-->
+        <!--<item name="colorPrimaryDark">#303F9F</item>-->
+        <!--<item name="colorAccent">#FF4081</item>-->
+    <!--</style>-->
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
 
     <style name="MMTheme.Basic" parent="@android:style/Theme">
         <item name="android:windowBackground">@color/white</item>

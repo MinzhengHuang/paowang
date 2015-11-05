@@ -14,8 +14,8 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btn_treeview"
+        android:id="@+id/btn_TubatuViewPager"
         style="@style/btn_style"
-        android:text="TreeView" />
+        android:text="TubatuViewPager" />
 
 </LinearLayout>

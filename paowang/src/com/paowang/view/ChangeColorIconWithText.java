@@ -65,17 +65,17 @@ public class ChangeColorIconWithText extends View {
 		for (int i = 0; i < n; i++) {
 			int attr = a.getIndex(i);
 			switch (attr) {
-			case R.styleable.ChangeColorIconWithText_icon:
+			case R.styleable.ChangeColorIconWithText_icon_main:
 				BitmapDrawable drawable = (BitmapDrawable) a.getDrawable(attr);
 				mIconBitmap = drawable.getBitmap();
 				break;
-			case R.styleable.ChangeColorIconWithText_color:
+			case R.styleable.ChangeColorIconWithText_color_main:
 				mColor = a.getColor(attr, 0xFF45C01A);
 				break;
-			case R.styleable.ChangeColorIconWithText_text:
+			case R.styleable.ChangeColorIconWithText_text_main:
 				mText = a.getString(attr);
 				break;
-			case R.styleable.ChangeColorIconWithText_text_size:
+			case R.styleable.ChangeColorIconWithText_text_size_main:
 				mTextSize = (int) a.getDimension(attr, TypedValue
 						.applyDimension(TypedValue.COMPLEX_UNIT_SP, 12,
 								getResources().getDisplayMetrics()));
