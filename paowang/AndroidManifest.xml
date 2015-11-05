@@ -30,6 +30,8 @@
             android:name=".TubatuViewPagerActivity"></activity>
         <activity
             android:name=".MaterialPatternLockViewActivity"></activity>
+        <activity
+            android:name=".GridPasswordViewActivity"></activity>
     </application>
 
 </manifest>

@@ -22,4 +22,8 @@
         android:id="@+id/btn_MaterialPatternLockView"
         style="@style/btn_style"
         android:text="MaterialPatternLockView" />
+    <Button
+        android:id="@+id/btn_GridPasswordView"
+        style="@style/btn_style"
+        android:text="GridPasswordView" />
 </LinearLayout>
