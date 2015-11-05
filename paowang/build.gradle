@@ -13,11 +13,20 @@ dependencies {
     compile fileTree(dir: 'libs', include: 'gson-2.2.3.jar')
     compile fileTree(dir: 'libs', include: 'nineoldandroids-2.4.0.jar')
     compile fileTree(dir: 'libs', include: 'android-support-v4.jar')
+    compile 'com.android.support:support-annotations:23.0.1'
 }
 
 android {
     compileSdkVersion 18
     buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "com.paowang"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
 
     sourceSets {
         main {

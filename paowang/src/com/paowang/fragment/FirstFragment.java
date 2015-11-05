@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
+import com.paowang.MaterialPatternLockViewActivity;
 import com.paowang.R;
 import com.paowang.TubatuViewPagerActivity;
 
@@ -18,6 +19,7 @@ public class FirstFragment extends Fragment implements OnClickListener {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_first, container, false);
         view.findViewById(R.id.btn_TubatuViewPager).setOnClickListener(this);
+        view.findViewById(R.id.btn_MaterialPatternLockView).setOnClickListener(this);
         return view;
 
     }
@@ -29,6 +31,10 @@ public class FirstFragment extends Fragment implements OnClickListener {
             case R.id.btn_TubatuViewPager:
                 intent = new Intent(getActivity(), TubatuViewPagerActivity.class);
                 break;
+            case R.id.btn_MaterialPatternLockView:
+                intent=new Intent(getActivity(), MaterialPatternLockViewActivity.class);
+                break;
+
             default:
                 break;
         }

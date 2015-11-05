@@ -7,5 +7,10 @@
         <attr name="text_main" format="string"></attr>
         <attr name="text_size_main" format="dimension"></attr>
     </declare-styleable>
-    
+
+    <declare-styleable name="MaterialLockView">
+        <attr name="LOCK_COLOR" format="color"/>
+        <attr name="WRONG_COLOR" format="color"/>
+        <attr name="CORRECT_COLOR" format="color"/>
+    </declare-styleable>
 </resources>
