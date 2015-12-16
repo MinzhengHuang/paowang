@@ -21,8 +21,6 @@ public class GridPasswordViewActivity extends Activity {
     private GridPasswordView gpvCustomUi;
     private GridPasswordView gpvNormalTwice;
 
-//    @InjectView(R.id.toolbar)
-//    Toolbar toolbar;
     Spinner pswtypeSp;
     Switch pswSwitch;
 
@@ -102,13 +100,9 @@ public class GridPasswordViewActivity extends Activity {
 
             @Override
             public void onMaxLength(String psw) {
+
             }
         });
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-//        ButterKnife.reset(this);
-    }
 }

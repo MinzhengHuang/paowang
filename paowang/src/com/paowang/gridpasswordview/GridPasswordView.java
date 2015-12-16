@@ -26,11 +26,8 @@ import com.paowang.R;
 import com.paowang.utils.Util;
 
 /**
- * ●
+ * @author huangminzheng
  *
- * @author Jungly
- *         mail: jungly.ik@gmail.com
- * @date 15/3/5 21:30
  */
 public class GridPasswordView extends LinearLayout implements PasswordView {
     private static final int DEFAULT_PASSWORDLENGTH = 6;
@@ -38,10 +35,8 @@ public class GridPasswordView extends LinearLayout implements PasswordView {
     private static final String DEFAULT_TRANSFORMATION = "●";
     private static final int DEFAULT_LINECOLOR = 0xaa888888;
     private static final int DEFAULT_GRIDCOLOR = 0xffffffff;
-
     private ColorStateList textColor;
     private int textSize = DEFAULT_TEXTSIZE;
-
     private int lineWidth;
     private int lineColor;
     private int gridColor;

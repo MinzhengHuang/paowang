@@ -32,6 +32,8 @@
             android:name=".MaterialPatternLockViewActivity"></activity>
         <activity
             android:name=".GridPasswordViewActivity"></activity>
+        <activity
+            android:name=".AnimTextViewActivity"></activity>
     </application>
 
 </manifest>

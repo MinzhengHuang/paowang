@@ -14,6 +14,7 @@ import java.util.List;
 
 /**
  * Created by Aman on 10/28/2015.
+ *
  */
 public class MaterialPatternLockViewActivity extends Activity {
     private String CorrectPattern = "";
@@ -27,10 +28,11 @@ public class MaterialPatternLockViewActivity extends Activity {
         materialLockView.setOnPatternListener(new MaterialLockView.OnPatternListener() {
             @Override
             public void onPatternDetected(List<MaterialLockView.Cell> pattern, String SimplePattern) {
-                if (!SimplePattern.equals(CorrectPattern))
+                if (!SimplePattern.equals(CorrectPattern)) {
                     materialLockView.setDisplayMode(MaterialLockView.DisplayMode.Wrong);
-                else
+                } else {
                     materialLockView.setDisplayMode(MaterialLockView.DisplayMode.Correct);
+                }
                 super.onPatternDetected(pattern, SimplePattern);
             }
         });

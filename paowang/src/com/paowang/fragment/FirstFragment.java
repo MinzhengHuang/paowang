@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
+import com.paowang.AnimTextViewActivity;
 import com.paowang.GridPasswordViewActivity;
 import com.paowang.MaterialPatternLockViewActivity;
 import com.paowang.R;
@@ -22,6 +23,7 @@ public class FirstFragment extends Fragment implements OnClickListener {
         view.findViewById(R.id.btn_TubatuViewPager).setOnClickListener(this);
         view.findViewById(R.id.btn_MaterialPatternLockView).setOnClickListener(this);
         view.findViewById(R.id.btn_GridPasswordView).setOnClickListener(this);
+        view.findViewById(R.id.btn_AnimTextView).setOnClickListener(this);
         return view;
 
     }
@@ -39,7 +41,9 @@ public class FirstFragment extends Fragment implements OnClickListener {
             case R.id.btn_GridPasswordView:
                 intent=new Intent(getActivity(), GridPasswordViewActivity.class);
                 break;
-
+            case R.id.btn_AnimTextView:
+                intent=new Intent(getActivity(), AnimTextViewActivity.class);
+                break;
             default:
                 break;
         }
