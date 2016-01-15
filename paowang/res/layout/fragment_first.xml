@@ -32,4 +32,14 @@
         android:id="@+id/btn_AnimTextView"
         style="@style/btn_style"
         android:text="AnimTextView" />
+
+    <Button
+        android:id="@+id/btn_DropDownMenu"
+        style="@style/btn_style"
+        android:text="DropDownMenuw" />
+
+    <Button
+        android:id="@+id/btn_AndroidtagView"
+        style="@style/btn_style"
+        android:text="AndroidtagView" />
 </LinearLayout>

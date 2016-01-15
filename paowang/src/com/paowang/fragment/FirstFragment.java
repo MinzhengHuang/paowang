@@ -13,6 +13,8 @@ import com.paowang.GridPasswordViewActivity;
 import com.paowang.MaterialPatternLockViewActivity;
 import com.paowang.R;
 import com.paowang.TubatuViewPagerActivity;
+import com.paowang.androidtagview.AndroidtagViewActivity;
+import com.paowang.dropdownmenu.DropDownMenuActivity;
 
 public class FirstFragment extends Fragment implements OnClickListener {
 
@@ -24,6 +26,8 @@ public class FirstFragment extends Fragment implements OnClickListener {
         view.findViewById(R.id.btn_MaterialPatternLockView).setOnClickListener(this);
         view.findViewById(R.id.btn_GridPasswordView).setOnClickListener(this);
         view.findViewById(R.id.btn_AnimTextView).setOnClickListener(this);
+        view.findViewById(R.id.btn_DropDownMenu).setOnClickListener(this);
+        view.findViewById(R.id.btn_AndroidtagView ).setOnClickListener(this);
         return view;
 
     }
@@ -43,6 +47,12 @@ public class FirstFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.btn_AnimTextView:
                 intent=new Intent(getActivity(), AnimTextViewActivity.class);
+                break;
+            case R.id.btn_DropDownMenu:
+                intent=new Intent(getActivity(), DropDownMenuActivity.class);
+                break;
+            case R.id.btn_AndroidtagView:
+                intent=new Intent(getActivity(), AndroidtagViewActivity.class);
                 break;
             default:
                 break;

@@ -12,7 +12,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/paowang_logo"
+        android:icon="@drawable/paowang"
         android:label="@string/app_name"
         android:theme="@style/MMTheme.Basic">
         <activity
@@ -34,6 +34,8 @@
             android:name=".GridPasswordViewActivity"></activity>
         <activity
             android:name=".AnimTextViewActivity"></activity>
+        <activity android:name=".dropdownmenu.DropDownMenuActivity" ></activity>
+        <activity android:name=".androidtagview.AndroidtagViewActivity" ></activity>
     </application>
 
 </manifest>
