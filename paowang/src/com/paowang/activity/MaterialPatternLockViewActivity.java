@@ -1,4 +1,4 @@
-package com.paowang;
+package com.paowang.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
+import com.paowang.R;
 import com.paowang.view.MaterialLockView;
 
 import java.util.List;

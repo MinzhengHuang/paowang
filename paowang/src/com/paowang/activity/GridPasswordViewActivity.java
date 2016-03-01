@@ -1,4 +1,4 @@
-package com.paowang;
+package com.paowang.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.widget.CompoundButton;
 import android.widget.Spinner;
 import android.widget.Switch;
 
+import com.paowang.R;
 import com.paowang.gridpasswordview.GridPasswordView;
 import com.paowang.gridpasswordview.PasswordType;
 

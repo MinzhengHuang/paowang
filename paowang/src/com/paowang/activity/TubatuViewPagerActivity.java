@@ -1,4 +1,4 @@
-package com.paowang;
+package com.paowang.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.paowang.R;
 import com.paowang.tubatu.ClipViewPager;
 import com.paowang.tubatu.RecyclingPagerAdapter;
 import com.paowang.tubatu.ScalePageTransformer;

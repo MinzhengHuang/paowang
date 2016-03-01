@@ -1,9 +1,10 @@
-package com.paowang;
+package com.paowang.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.paowang.R;
 import com.paowang.view.AnimTextView;
 
 

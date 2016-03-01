@@ -1,0 +1,6 @@
+<root>
+  <item name='android.animation.ValueAnimator java.lang.Object getAnimatedValue()'>
+    <annotation name='java.lang.annotation.Deprecated' />
+    <annotation name='android.support.annotation.NonNull' />
+  </item>
+</root>

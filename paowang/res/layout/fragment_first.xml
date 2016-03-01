@@ -42,4 +42,13 @@
         android:id="@+id/btn_AndroidtagView"
         style="@style/btn_style"
         android:text="AndroidtagView" />
+    <Button
+        android:id="@+id/btn_SmoothCheckBox"
+        style="@style/btn_style"
+        android:text="SmoothCheckBox" />
+
+    <Button
+        android:id="@+id/btn_OverscrollScale"
+        style="@style/btn_style"
+        android:text="OverscrollScale" />
 </LinearLayout>

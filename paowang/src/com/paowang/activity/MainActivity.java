@@ -1,4 +1,4 @@
-package com.paowang;
+package com.paowang.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,6 +12,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewConfiguration;
 import android.view.Window;
 
+import com.paowang.R;
 import com.paowang.fragment.FirstFragment;
 import com.paowang.fragment.ForthFragment;
 import com.paowang.fragment.SecondFragment;
