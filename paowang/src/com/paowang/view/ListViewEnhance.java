@@ -36,7 +36,6 @@ public class ListViewEnhance {
     }
 
     /**
-     * ÅÐ¶ÏÊÇ·ñ¿ÉÒÔËõ·Å list
      *
      * @param listView
      * @param offset
@@ -86,7 +85,7 @@ public class ListViewEnhance {
     }
 
     /**
-     * À­Éì List
+     * ï¿½ï¿½ï¿½ï¿½ List
      *
      * @param listView
      * @param canvas
@@ -152,7 +151,7 @@ public class ListViewEnhance {
     }
 
     /**
-     * ÊÇ·ñ¹ö¶¯µ½±ßÔµ
+     * ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôµ
      *
      * @param listView
      * @param offset
@@ -163,7 +162,7 @@ public class ListViewEnhance {
         if (childCount > 0) {
             boolean isScrollAtTop;
             boolean isScrollAtBottom;
-            boolean isShortList;//ËµÃ÷¸ÃÁÐ±íÃ»ÓÐÌîÂúÆÁÄ»
+            boolean isShortList;//Ëµï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»
             int firstPosition = listView.getFirstVisiblePosition();
             int firstTop = listView.getChildAt(0).getTop();
             int lastBottom = listView.getChildAt(listView.getChildCount() - 1).getBottom();

@@ -32,7 +32,8 @@
         <activity android:name=".activity.AnimTextViewActivity"></activity>
         <activity android:name=".activity.MaterialPatternLockViewActivity"></activity>
         <activity android:name=".activity.TubatuViewPagerActivity"></activity>
-        <activity android:name=".activity.OverscrollScaleActivity" ></activity>
+        <activity android:name=".activity.OverscrollScaleActivity"></activity>
+        <activity android:name=".activity.KprogresshudActivity"></activity>
     </application>
 
 </manifest>
