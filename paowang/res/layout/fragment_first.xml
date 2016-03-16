@@ -56,4 +56,8 @@
         android:id="@+id/btn_Kprogresshud"
         style="@style/btn_style"
         android:text="Kprogresshud" />
+    <Button
+        android:id="@+id/btn_GossipView"
+        style="@style/btn_style"
+        android:text="GossipView" />
 </LinearLayout>

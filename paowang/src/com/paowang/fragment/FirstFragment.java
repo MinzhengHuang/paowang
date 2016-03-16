@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 
 import com.paowang.R;
 import com.paowang.activity.AnimTextViewActivity;
+import com.paowang.activity.GossipViewActivity;
 import com.paowang.activity.GridPasswordViewActivity;
 import com.paowang.activity.KprogresshudActivity;
 import com.paowang.activity.MaterialPatternLockViewActivity;
@@ -34,6 +35,7 @@ public class FirstFragment extends Fragment implements OnClickListener {
         view.findViewById(R.id.btn_SmoothCheckBox).setOnClickListener(this);
         view.findViewById(R.id.btn_OverscrollScale).setOnClickListener(this);
         view.findViewById(R.id.btn_Kprogresshud).setOnClickListener(this);
+        view.findViewById(R.id.btn_GossipView).setOnClickListener(this);
         return view;
 
     }
@@ -66,8 +68,12 @@ public class FirstFragment extends Fragment implements OnClickListener {
             case R.id.btn_OverscrollScale:
                 intent = new Intent(getActivity(), OverscrollScaleActivity.class);
                 break;
+
             case R.id.btn_Kprogresshud:
                 intent = new Intent(getActivity(), KprogresshudActivity.class);
+                break;
+            case R.id.btn_GossipView:
+                intent = new Intent(getActivity(), GossipViewActivity.class);
                 break;
             default:
                 break;

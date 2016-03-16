@@ -34,6 +34,7 @@
         <activity android:name=".activity.TubatuViewPagerActivity"></activity>
         <activity android:name=".activity.OverscrollScaleActivity"></activity>
         <activity android:name=".activity.KprogresshudActivity"></activity>
+        <activity android:name=".activity.GossipViewActivity" ></activity>
     </application>
 
 </manifest>
