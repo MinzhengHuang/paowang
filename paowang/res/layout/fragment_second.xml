@@ -3,14 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#cc99ff" >
+    android:background="#e1c0ec" >
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="第二页"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:padding="5dp"/>
+    <Button
+        android:id="@+id/btn_IndexRecyclerView"
+        style="@style/btn_style"
+        android:text="IndexRecyclerView" />
 
 </LinearLayout>

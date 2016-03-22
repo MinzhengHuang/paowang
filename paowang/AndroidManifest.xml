@@ -35,6 +35,7 @@
         <activity android:name=".activity.OverscrollScaleActivity"></activity>
         <activity android:name=".activity.KprogresshudActivity"></activity>
         <activity android:name=".activity.GossipViewActivity" ></activity>
+        <activity android:name=".indexrecyclerview.IndexRecyclerViewActivity" ></activity>
     </application>
 
 </manifest>

@@ -68,7 +68,6 @@ public class FirstFragment extends Fragment implements OnClickListener {
             case R.id.btn_OverscrollScale:
                 intent = new Intent(getActivity(), OverscrollScaleActivity.class);
                 break;
-
             case R.id.btn_Kprogresshud:
                 intent = new Intent(getActivity(), KprogresshudActivity.class);
                 break;

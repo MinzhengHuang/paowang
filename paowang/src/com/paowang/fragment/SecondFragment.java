@@ -9,25 +9,29 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
 import com.paowang.R;
+import com.paowang.indexrecyclerview.IndexRecyclerViewActivity;
 
-public class SecondFragment extends Fragment implements OnClickListener{
+public class SecondFragment extends Fragment implements OnClickListener {
 
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
-		View view = inflater.inflate(R.layout.fragment_second, container, false);
-		return view;
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_second, container, false);
+        view.findViewById(R.id.btn_IndexRecyclerView).setOnClickListener(this);
+        return view;
 
-	}
+    }
 
-	@Override
-	public void onClick(View v) {
-		Intent intent=null;
-		switch (v.getId()) {
+    @Override
+    public void onClick(View v) {
+        Intent intent = null;
+        switch (v.getId()) {
+            case R.id.btn_IndexRecyclerView:
+                intent = new Intent(getActivity(), IndexRecyclerViewActivity.class);
 
-		default:
-			break;
-		}
-		startActivity(intent);
-	}
+            default:
+                break;
+        }
+        startActivity(intent);
+    }
 }

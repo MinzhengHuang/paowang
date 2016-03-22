@@ -11,30 +11,35 @@ import com.paowang.view.GossipView;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1115/1986.html
+ *
+ * GossipView：圆圈布局的自定义view
+ */
 public class GossipViewActivity extends Activity {
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_gossipview);
-		GossipView gossipView = (GossipView)findViewById(R.id.gossipview);
-		String[] strs = {"安卓","微软","苹果","谷歌","百度","腾讯"} ;
-				 
-		final List<GossipItem> items =new ArrayList<GossipItem>();
-		for(int i = 0; i < strs.length; i++) { 
-			GossipItem item = new GossipItem(strs[i],3);
-			items.add(item);
-		}
-		gossipView.setItems(items);
-		gossipView.setNumber(3);
-		gossipView.setOnPieceClickListener( new GossipView.OnPieceClickListener(){
-			@Override
-			public void onPieceClick(int index) {
-			  if(index != -1 &&  index != -2) {
-				  Toast.makeText(GossipViewActivity.this, "你选择了" + items.get(index).getTitle(), Toast.LENGTH_SHORT).show();
-			  }
-		    }
-		});
-	}
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_gossipview);
+        GossipView gossipView = (GossipView) findViewById(R.id.gossipview);
+        String[] strs = {"安卓", "微软", "苹果", "谷歌", "百度", "腾讯"};
+
+        final List<GossipItem> items = new ArrayList<GossipItem>();
+        for (int i = 0; i < strs.length; i++) {
+            GossipItem item = new GossipItem(strs[i], 3);
+            items.add(item);
+        }
+        gossipView.setItems(items);
+        gossipView.setNumber(3);
+        gossipView.setOnPieceClickListener(new GossipView.OnPieceClickListener() {
+            @Override
+            public void onPieceClick(int index) {
+                if (index != -1 && index != -2) {
+                    Toast.makeText(GossipViewActivity.this, "你选择了" + items.get(index).getTitle(), Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
 
 }
