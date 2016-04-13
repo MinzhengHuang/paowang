@@ -52,4 +52,9 @@
         android:id="@+id/btn_GossipView"
         style="@style/btn_style"
         android:text="GossipView" />
+
+    <Button
+        android:id="@+id/btn_Artical"
+        style="@style/btn_style"
+        android:text="Artical" />
 </LinearLayout>

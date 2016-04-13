@@ -10,4 +10,9 @@
         style="@style/btn_style"
         android:text="IndexRecyclerView" />
 
+    <Button
+        android:id="@+id/btn_WaveView"
+        style="@style/btn_style"
+        android:text="WaveView" />
+
 </LinearLayout>

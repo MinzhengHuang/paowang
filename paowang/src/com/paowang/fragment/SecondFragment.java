@@ -9,6 +9,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
 import com.paowang.R;
+import com.paowang.activity.WaveViewActivity;
 import com.paowang.indexrecyclerview.IndexRecyclerViewActivity;
 
 public class SecondFragment extends Fragment implements OnClickListener {
@@ -18,6 +19,7 @@ public class SecondFragment extends Fragment implements OnClickListener {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_second, container, false);
         view.findViewById(R.id.btn_IndexRecyclerView).setOnClickListener(this);
+        view.findViewById(R.id.btn_WaveView).setOnClickListener(this);
         return view;
 
     }
@@ -28,7 +30,8 @@ public class SecondFragment extends Fragment implements OnClickListener {
         switch (v.getId()) {
             case R.id.btn_IndexRecyclerView:
                 intent = new Intent(getActivity(), IndexRecyclerViewActivity.class);
-
+            case R.id.btn_WaveView:
+                intent = new Intent(getActivity(), WaveViewActivity.class);
             default:
                 break;
         }

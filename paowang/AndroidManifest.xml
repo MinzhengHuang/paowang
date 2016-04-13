@@ -36,6 +36,8 @@
         <activity android:name=".activity.KprogresshudActivity"></activity>
         <activity android:name=".activity.GossipViewActivity" ></activity>
         <activity android:name=".indexrecyclerview.IndexRecyclerViewActivity" ></activity>
+        <activity android:name=".activity.ArticleActivity" ></activity>
+        <activity android:name=".activity.WaveViewActivity" ></activity>
     </application>
 
 </manifest>

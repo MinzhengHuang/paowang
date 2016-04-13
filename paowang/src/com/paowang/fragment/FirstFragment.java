@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 
 import com.paowang.R;
 import com.paowang.activity.AnimTextViewActivity;
+import com.paowang.activity.ArticleActivity;
 import com.paowang.activity.GossipViewActivity;
 import com.paowang.activity.GridPasswordViewActivity;
 import com.paowang.activity.KprogresshudActivity;
@@ -36,6 +37,7 @@ public class FirstFragment extends Fragment implements OnClickListener {
         view.findViewById(R.id.btn_OverscrollScale).setOnClickListener(this);
         view.findViewById(R.id.btn_Kprogresshud).setOnClickListener(this);
         view.findViewById(R.id.btn_GossipView).setOnClickListener(this);
+        view.findViewById(R.id.btn_Artical).setOnClickListener(this);
         return view;
 
     }
@@ -73,6 +75,9 @@ public class FirstFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.btn_GossipView:
                 intent = new Intent(getActivity(), GossipViewActivity.class);
+                break;
+            case R.id.btn_Artical:
+                intent = new Intent(getActivity(), ArticleActivity.class);
                 break;
             default:
                 break;
