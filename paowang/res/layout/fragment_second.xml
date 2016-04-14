@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#e1c0ec" >
+    android:background="#e1c0ec"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/btn_IndexRecyclerView"
@@ -14,9 +14,14 @@
         android:id="@+id/btn_WaveView"
         style="@style/btn_style"
         android:text="WaveView" />
+
     <Button
         android:id="@+id/btn_YummytextSwitcher"
         style="@style/btn_style"
         android:text="YummytextSwitcher" />
 
+    <Button
+        android:id="@+id/btn_MaterialRippleLayout"
+        style="@style/btn_style"
+        android:text="MaterialRippleLayout" />
 </LinearLayout>

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.paowang.view.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#ffff00"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleColor="#585858"
+        app:mrl_rippleDelayClick="false"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true">
+
+        <TextView
+            android:id="@+id/ripple_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_material_ripple_layout"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Overlay with hover"
+            android:textColor="#333"
+            android:textSize="20sp" />
+
+    </com.paowang.view.MaterialRippleLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="#eee"></View>
+    <TextView
+        android:id="@+id/ripple_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/selector_material_ripple_layout"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Ripples static init"
+        android:textColor="#333"
+        android:textSize="20sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#eee"></View>
+</LinearLayout>

@@ -2,12 +2,14 @@ package com.paowang.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Toast;
 
 import com.paowang.R;
 import com.paowang.data.GossipItem;
 import com.paowang.view.GossipView;
+import com.paowang.view.RevealTextView;
 import com.paowang.view.RippleView;
 
 import java.util.ArrayList;
@@ -55,6 +57,13 @@ public class GossipViewActivity extends Activity {
                 Toast.makeText(GossipViewActivity.this, "haha", Toast.LENGTH_SHORT).show();
             }
         });
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                ((RevealTextView) findViewById(R.id.RevealTextView)).setAnimatedText("Sample test");
+            }
+        }, 5000);
     }
 
 }
