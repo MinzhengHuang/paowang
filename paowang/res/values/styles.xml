@@ -82,4 +82,8 @@
         <item name="android:layout_marginBottom">1dp</item>
     </style>
 
+    <style name="FadeAnimation">
+        <item name="android:windowEnterAnimation"><!--@anim/dialog_fade_in-->@null</item>
+        <item name="android:windowExitAnimation">@anim/dialog_fade_out</item>
+    </style>
 </resources>

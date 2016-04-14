@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import com.paowang.R;
 import com.paowang.activity.WaveViewActivity;
 import com.paowang.indexrecyclerview.IndexRecyclerViewActivity;
+import com.paowang.yummytextswitcher.YummytextSwitcherActivity;
 
 public class SecondFragment extends Fragment implements OnClickListener {
 
@@ -20,6 +21,7 @@ public class SecondFragment extends Fragment implements OnClickListener {
         View view = inflater.inflate(R.layout.fragment_second, container, false);
         view.findViewById(R.id.btn_IndexRecyclerView).setOnClickListener(this);
         view.findViewById(R.id.btn_WaveView).setOnClickListener(this);
+        view.findViewById(R.id.btn_YummytextSwitcher).setOnClickListener(this);
         return view;
 
     }
@@ -32,6 +34,8 @@ public class SecondFragment extends Fragment implements OnClickListener {
                 intent = new Intent(getActivity(), IndexRecyclerViewActivity.class);
             case R.id.btn_WaveView:
                 intent = new Intent(getActivity(), WaveViewActivity.class);
+            case R.id.btn_YummytextSwitcher:
+                intent = new Intent(getActivity(), YummytextSwitcherActivity.class);
             default:
                 break;
         }

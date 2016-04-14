@@ -102,4 +102,10 @@
         <attr name="bga_sil_springDistance" format="dimension" />
         <attr name="bga_sil_swipeAble" format="boolean" />
     </declare-styleable>
+
+    <declare-styleable name="YummyTextSwitcher">
+        <attr name="textSize1" format="dimension" />
+        <attr name="textColor1" format="color" />
+        <attr name="frameOffset" format="float" />
+    </declare-styleable>
 </resources>
