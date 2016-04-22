@@ -3,6 +3,7 @@ package com.paowang.activity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.paowang.R;
 import com.sweetalert.SweetAlertDialog;
@@ -121,6 +122,7 @@ public class SweetAlertActivity extends Activity implements View.OnClickListener
                         .show();
                 break;
             case R.id.progress_dialog:
+                Toast.makeText(this, "没有实现", Toast.LENGTH_SHORT).show();
 //                final SweetAlertDialog pDialog = new SweetAlertDialog(this, SweetAlertDialog.PROGRESS_TYPE)
 //                        .setTitleText("Loading");
 //                pDialog.show();
