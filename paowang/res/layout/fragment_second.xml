@@ -24,4 +24,9 @@
         android:id="@+id/btn_MaterialRippleLayout"
         style="@style/btn_style"
         android:text="MaterialRippleLayout" />
+
+    <Button
+        android:id="@+id/btn_SweetAlert"
+        style="@style/btn_style"
+        android:text="SweetAlert" />
 </LinearLayout>

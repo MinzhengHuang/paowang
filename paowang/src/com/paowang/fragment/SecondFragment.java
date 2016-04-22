@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 
 import com.paowang.R;
 import com.paowang.activity.MaterialRippleLayoutActivity;
+import com.paowang.activity.SweetAlertActivity;
 import com.paowang.activity.WaveViewActivity;
 import com.paowang.indexrecyclerview.IndexRecyclerViewActivity;
 import com.paowang.yummytextswitcher.YummytextSwitcherActivity;
@@ -24,6 +25,7 @@ public class SecondFragment extends Fragment implements OnClickListener {
         view.findViewById(R.id.btn_WaveView).setOnClickListener(this);
         view.findViewById(R.id.btn_YummytextSwitcher).setOnClickListener(this);
         view.findViewById(R.id.btn_MaterialRippleLayout).setOnClickListener(this);
+        view.findViewById(R.id.btn_SweetAlert).setOnClickListener(this);
         return view;
 
     }
@@ -43,6 +45,9 @@ public class SecondFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.btn_MaterialRippleLayout:
                 intent = new Intent(getActivity(), MaterialRippleLayoutActivity.class);
+                break;
+            case R.id.btn_SweetAlert:
+                intent = new Intent(getActivity(), SweetAlertActivity.class);
                 break;
             default:
                 break;
