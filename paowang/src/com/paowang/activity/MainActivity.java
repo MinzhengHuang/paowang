@@ -29,8 +29,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 
 	private ViewPager mViewPager;
 	private List<Fragment> mTabs = new ArrayList<Fragment>();
-//	private String[] mTitles = new String[] { "First Fragment !",
-//			"Second Fragment !", "Third Fragment !", "Fourth Fragment !" };
 	private FragmentPagerAdapter mAdapter;
 
 	private List<ChangeColorIconWithText> mTabIndicators = new ArrayList<ChangeColorIconWithText>();
@@ -40,7 +38,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		setOverflowButtonAlways();
-//		getActionBar().setDisplayShowHomeEnabled(false);
 
 		initView();
 		initDatas();
@@ -197,8 +194,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 	@Override
 	public void onPageScrolled(int position, float positionOffset,
 			int positionOffsetPixels) {
-		// Log.e("TAG", "position = " + position + " ,positionOffset =  "
-		// + positionOffset);
 		if (positionOffset > 0) {
 			ChangeColorIconWithText left = mTabIndicators.get(position);
 			ChangeColorIconWithText right = mTabIndicators.get(position + 1);
