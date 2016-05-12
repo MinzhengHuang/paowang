@@ -41,6 +41,8 @@
         <activity android:name=".yummytextswitcher.YummytextSwitcherActivity" ></activity>
         <activity android:name=".activity.MaterialRippleLayoutActivity" ></activity>
         <activity android:name=".activity.SweetAlertActivity" ></activity>
+        <activity android:name=".activity.TooltipActivity" ></activity>
+        <activity android:name=".activity.BubbleLayoutActivity" ></activity>
     </application>
 
 </manifest>
