@@ -43,6 +43,7 @@
         <activity android:name=".activity.SweetAlertActivity" ></activity>
         <activity android:name=".activity.TooltipActivity" ></activity>
         <activity android:name=".activity.BubbleLayoutActivity" ></activity>
+        <activity android:name=".activity.GoodViewActivity" ></activity>
     </application>
 
 </manifest>

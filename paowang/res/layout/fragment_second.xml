@@ -39,4 +39,9 @@
         android:id="@+id/btn_BubbleLayout"
         style="@style/btn_style"
         android:text="BubbleLayout" />
+
+    <Button
+        android:id="@+id/btn_GoodView"
+        style="@style/btn_style"
+        android:text="GoodView" />
 </LinearLayout>
