@@ -2,3 +2,4 @@ paowang/build/*
 paowang/bin/*
 paowang/.gradle/*
 paowang/.idea/*
+paowang.jks
