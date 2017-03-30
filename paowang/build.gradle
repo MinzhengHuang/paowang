@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.0.0'
+        classpath 'com.android.tools.build:gradle:2.2.0'
     }
 }
 apply plugin: 'android'
@@ -28,8 +28,8 @@ android {
             storePassword '123456'
         }
     }
-    compileSdkVersion 18
-    buildToolsVersion "20.0.0"
+    compileSdkVersion 19
+    buildToolsVersion "21.0.0"
     defaultConfig {
         applicationId "com.paowang"
         minSdkVersion 14
