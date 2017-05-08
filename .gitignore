@@ -3,3 +3,5 @@ paowang/bin/*
 paowang/.gradle/*
 paowang/.idea/*
 paowang.jks
+paowang/paowang.iml
+paowang/sweetalertlibrary/sweetalertlibrary.iml
