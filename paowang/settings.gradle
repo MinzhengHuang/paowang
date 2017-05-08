@@ -1,1 +1,1 @@
-include ':sweetalertlibrary'
+include ':sweetalertlibrary', ':imagespickers'

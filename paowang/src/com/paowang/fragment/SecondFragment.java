@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import com.paowang.R;
 import com.paowang.activity.BubbleLayoutActivity;
 import com.paowang.activity.GoodViewActivity;
+import com.paowang.activity.ImagepickerDemoActivity;
 import com.paowang.activity.MaterialRippleLayoutActivity;
 import com.paowang.activity.SweetAlertActivity;
 import com.paowang.activity.TooltipActivity;
@@ -32,6 +33,7 @@ public class SecondFragment extends Fragment implements OnClickListener {
         view.findViewById(R.id.btn_Tooltip).setOnClickListener(this);
         view.findViewById(R.id.btn_BubbleLayout).setOnClickListener(this);
         view.findViewById(R.id.btn_GoodView).setOnClickListener(this);
+        view.findViewById(R.id.btn_ImagepickerDemo).setOnClickListener(this);
         return view;
 
     }
@@ -63,6 +65,10 @@ public class SecondFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.btn_GoodView:
                 intent = new Intent(getActivity(), GoodViewActivity.class);
+                break;
+
+            case R.id.btn_ImagepickerDemo:
+                intent = new Intent(getActivity(), ImagepickerDemoActivity.class);
                 break;
             default:
                 break;

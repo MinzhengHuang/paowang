@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.paowang"
-    android:versionCode="1"
-    android:versionName="1.0">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.paowang"
+          android:versionCode="1"
+          android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="23"
+        tools:overrideLibrary="com.jaiky.imagespickers"/>
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -44,6 +46,7 @@
         <activity android:name=".activity.TooltipActivity" ></activity>
         <activity android:name=".activity.BubbleLayoutActivity" ></activity>
         <activity android:name=".activity.GoodViewActivity" ></activity>
+        <activity android:name=".activity.ImagepickerDemoActivity" ></activity>
     </application>
 
 </manifest>
