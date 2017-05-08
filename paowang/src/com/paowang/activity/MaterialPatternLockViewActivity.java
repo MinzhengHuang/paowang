@@ -15,7 +15,6 @@ import java.util.List;
 
 /**
  * Created by Aman on 10/28/2015.
- *
  */
 public class MaterialPatternLockViewActivity extends Activity {
     private String CorrectPattern = "";
@@ -25,6 +24,7 @@ public class MaterialPatternLockViewActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_material_pattern_lockview);
+
         materialLockView = (MaterialLockView) findViewById(R.id.pattern);
         materialLockView.setOnPatternListener(new MaterialLockView.OnPatternListener() {
             @Override
@@ -37,13 +37,13 @@ public class MaterialPatternLockViewActivity extends Activity {
                 super.onPatternDetected(pattern, SimplePattern);
             }
         });
-        ((CheckBox) findViewById(R.id.stealthmode)).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        ((CheckBox) findViewById(R.id.cb_stealthmode)).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 materialLockView.setInStealthMode(isChecked);
             }
         });
-        ((EditText) findViewById(R.id.correct_pattern_edittext)).addTextChangedListener(new TextWatcher() {
+        ((EditText) findViewById(R.id.et_correct_pattern)).addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 

@@ -7,17 +7,17 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/correct_pattern_edittext"
+        android:id="@+id/et_correct_pattern"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Correct Pattern"
         android:inputType="number" />
 
     <CheckBox
-        android:id="@+id/stealthmode"
+        android:id="@+id/cb_stealthmode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/correct_pattern_edittext"
+        android:layout_below="@+id/et_correct_pattern"
         android:checked="false"
         android:text="Stealth mode" />
 

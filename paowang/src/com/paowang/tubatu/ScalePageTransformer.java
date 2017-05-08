@@ -3,6 +3,8 @@ package com.paowang.tubatu;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 
+import com.paowang.utils.DLog;
+
 /**
  * Created by HanHailong on 15/9/27.
  */
@@ -13,7 +15,6 @@ public class ScalePageTransformer implements ViewPager.PageTransformer {
 
     @Override
     public void transformPage(View page, float position) {
-
         if (position < -1) {
             position = -1;
         } else if (position > 1) {
@@ -25,7 +26,8 @@ public class ScalePageTransformer implements ViewPager.PageTransformer {
         float slope = (MAX_SCALE - MIN_SCALE) / 1;
         //一个公式
         float scaleValue = MIN_SCALE + tempScale * slope;
-        page.setScaleX(scaleValue);
+        DLog.d("scaleValue=" + scaleValue);
+        page.setScaleX(scaleValue);//设置缩放比例
         page.setScaleY(scaleValue);
     }
 }

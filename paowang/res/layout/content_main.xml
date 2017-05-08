@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:clipChildren="false"
-    tools:context=".MainActivity"
     tools:showIn="@layout/activity_tubatu_viewpager">
 
     <com.paowang.tubatu.ClipViewPager

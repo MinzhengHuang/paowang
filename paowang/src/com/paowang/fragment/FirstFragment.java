@@ -39,7 +39,6 @@ public class FirstFragment extends Fragment implements OnClickListener {
         view.findViewById(R.id.btn_GossipView).setOnClickListener(this);
         view.findViewById(R.id.btn_Artical).setOnClickListener(this);
         return view;
-
     }
 
     @Override

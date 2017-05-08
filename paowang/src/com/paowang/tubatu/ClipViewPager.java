@@ -21,14 +21,12 @@ public class ClipViewPager extends ViewPager {
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
-
         if (ev.getAction() == MotionEvent.ACTION_UP) {
             View view = viewOfClickOnScreen(ev);
             if (view != null) {
                 setCurrentItem(indexOfChild(view));
             }
         }
-
         return super.dispatchTouchEvent(ev);
     }
 

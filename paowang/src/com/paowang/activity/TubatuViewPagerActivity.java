@@ -25,17 +25,6 @@ public class TubatuViewPagerActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tubatu_viewpager);
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-//
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
 
         mViewPager = (ClipViewPager) findViewById(R.id.viewpager);
         mViewPager.setPageTransformer(true, new ScalePageTransformer());
@@ -65,7 +54,7 @@ public class TubatuViewPagerActivity extends Activity {
         list.add(R.drawable.style_rishi);
 
         //设置OffscreenPageLimit
-        mViewPager.setOffscreenPageLimit(list.size());
+        mViewPager.setOffscreenPageLimit(list.size());//限定预加载的页面个数
         mPagerAdapter.addAll(list);
     }
 
