@@ -1,1 +1,1 @@
-include ':sweetalertlibrary', ':imagespickers'
+include ':sweetalertlibrary', ':imagespickers', ':jd_andress_selector'

@@ -55,5 +55,9 @@
         style="@style/btn_style"
         android:text="TextViewExpandableAnimation" />
 
+    <Button
+        android:id="@+id/btn_JDAddressSelector"
+        style="@style/btn_style"
+        android:text="JDAddressSelector" />
 
 </LinearLayout>
