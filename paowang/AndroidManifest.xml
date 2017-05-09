@@ -47,6 +47,7 @@
         <activity android:name=".activity.BubbleLayoutActivity" ></activity>
         <activity android:name=".activity.GoodViewActivity" ></activity>
         <activity android:name=".activity.ImagepickerDemoActivity" ></activity>
+        <activity android:name=".activity.TextViewExpandableAnimationActivity" ></activity>
     </application>
 
 </manifest>

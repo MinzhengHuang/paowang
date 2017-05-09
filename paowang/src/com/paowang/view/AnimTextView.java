@@ -60,7 +60,6 @@ public class AnimTextView extends TextView {
 
     private void makeUnequalData(String oldNum, String newNum) {
         StringBuilder sb = new StringBuilder();
-        ;
         int l1 = oldNum.length() - 1;
         int l2 = newNum.length() - 1;
         for (; l1 > -1 || l2 > -1; --l1, --l2) {

@@ -32,4 +32,7 @@
     <color name="shadow_bg">#66000000</color>
     <color name="edit_bg">#EFEFF4</color>
     <color name="darker_gray">#9b9b9b</color>
+
+    <color name="color_divider_line_gray">#e2e2e2</color>
+    <color name="color_gray_light_content_text">#5d5d5d</color>
 </resources>
