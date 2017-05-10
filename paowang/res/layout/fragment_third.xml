@@ -5,4 +5,13 @@
     android:background="#c7eaec"
     android:orientation="vertical" >
 
+    <Button
+        android:id="@+id/btn_Toasty"
+        style="@style/btn_style"
+        android:text="Toasty" />
+
+    <Button
+        android:id="@+id/btn_LoadData"
+        style="@style/btn_style"
+        android:text="LoadData" />
 </LinearLayout>

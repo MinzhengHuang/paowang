@@ -86,4 +86,59 @@
         <item name="android:windowEnterAnimation"><!--@anim/dialog_fade_in-->@null</item>
         <item name="android:windowExitAnimation">@anim/dialog_fade_out</item>
     </style>
+
+    <style name="common_loadDataLayout">
+        <item name="com.paowang:loadingText">@string/custom_loading_text</item>
+        <item name="com.paowang:loadingTextSize">20</item>
+        <item name="com.paowang:loadingTextColor">@color/colorPrimary</item>
+        <item name="com.paowang:loadingViewLayoutId">@layout/custom_loading_view</item>
+
+        <item name="com.paowang:emptyText">@string/custom_empty_text</item>
+        <item name="com.paowang:emptyImgId">@drawable/ic_empty</item>
+        <item name="com.paowang:emptyImageVisible">true</item>
+
+        <item name="com.paowang:errorText">@string/custom_error_text</item>
+        <item name="com.paowang:errorImgId">@drawable/ic_error</item>
+        <item name="com.paowang:errorImageVisible">true</item>
+
+        <item name="com.paowang:noNetWorkText">@string/custom_nonetwork_text</item>
+        <item name="com.paowang:noNetWorkImgId">@drawable/ic_no_network</item>
+        <item name="com.paowang:noNetWorkImageVisible">true</item>
+
+        <item name="com.paowang:allTipTextColor">@color/text_color_child</item>
+        <item name="com.paowang:allTipTextSize">20</item>
+        <item name="com.paowang:allPageBackgroundColor">@color/pageBackground</item>
+
+        <item name="com.paowang:reloadBtnText">@string/custom_reloadBtn_text</item>
+        <item name="com.paowang:reloadBtnTextSize">20</item>
+        <item name="com.paowang:reloadBtnTextColor">@color/colorPrimary</item>
+        <item name="com.paowang:reloadBtnBackgroundResource">@drawable/selector_btn_normal</item>
+        <item name="com.paowang:reloadBtnVisible">true</item>
+        <item name="com.paowang:reloadClickArea">button</item>
+    </style>
+
+    <style name="common_swipeLoadDataLayout">
+        <item name="com.paowang:emptyText">@string/custom_empty_text</item>
+        <item name="com.paowang:emptyImgId">@drawable/ic_empty_zhihu</item>
+        <item name="com.paowang:emptyImageVisible">true</item>
+
+        <item name="com.paowang:errorText">@string/custom_error_text</item>
+        <item name="com.paowang:errorImgId">@drawable/ic_error_zhihu</item>
+        <item name="com.paowang:errorImageVisible">true</item>
+
+        <item name="com.paowang:noNetWorkText">@string/custom_nonetwork_text</item>
+        <item name="com.paowang:noNetWorkImgId">@drawable/ic_no_network_zhihu</item>
+        <item name="com.paowang:noNetWorkImageVisible">true</item>
+
+        <item name="com.paowang:allTipTextColor">@color/text_color_child</item>
+        <item name="com.paowang:allTipTextSize">16</item>
+        <item name="com.paowang:allPageBackgroundColor">@color/pageBackground</item>
+
+        <item name="com.paowang:reloadBtnText">@string/custom_reloadBtn_text</item>
+        <item name="com.paowang:reloadBtnTextSize">16</item>
+        <item name="com.paowang:reloadBtnTextColor">@color/colorPrimary</item>
+        <!--<item name="com.paowang:reloadBtnBackgroundResource">@drawable/selector_btn_normal</item>-->
+        <item name="com.paowang:reloadBtnVisible">true</item>
+        <item name="com.paowang:reloadClickArea">button</item>
+    </style>
 </resources>

@@ -16,7 +16,6 @@ import com.paowang.activity.JDAddressSelectorActivity;
 import com.paowang.activity.MaterialRippleLayoutActivity;
 import com.paowang.activity.SweetAlertActivity;
 import com.paowang.activity.TextViewExpandableAnimationActivity;
-import com.paowang.activity.ToastyActivity;
 import com.paowang.activity.TooltipActivity;
 import com.paowang.activity.WaveViewActivity;
 import com.paowang.indexrecyclerview.IndexRecyclerViewActivity;
@@ -39,7 +38,6 @@ public class SecondFragment extends Fragment implements OnClickListener {
         view.findViewById(R.id.btn_ImagepickerDemo).setOnClickListener(this);
         view.findViewById(R.id.btn_TextViewExpandableAnimation).setOnClickListener(this);
         view.findViewById(R.id.btn_JDAddressSelector).setOnClickListener(this);
-        view.findViewById(R.id.btn_Toasty).setOnClickListener(this);
         return view;
 
     }
@@ -80,9 +78,6 @@ public class SecondFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.btn_JDAddressSelector:
                 intent = new Intent(getActivity(), JDAddressSelectorActivity.class);
-                break;
-            case R.id.btn_Toasty:
-                intent = new Intent(getActivity(), ToastyActivity.class);
                 break;
             default:
                 break;
