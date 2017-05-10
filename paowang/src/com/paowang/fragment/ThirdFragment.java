@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.paowang.R;
+import com.paowang.activity.CornerLabelViewActivity;
 import com.paowang.activity.ToastyActivity;
 import com.paowang.activity.loaddata.LoadDataActivity;
 
@@ -19,6 +20,7 @@ public class ThirdFragment extends Fragment implements View.OnClickListener {
 		View view = inflater.inflate(R.layout.fragment_third, container, false);
 		view.findViewById(R.id.btn_Toasty).setOnClickListener(this);
 		view.findViewById(R.id.btn_LoadData).setOnClickListener(this);
+		view.findViewById(R.id.btn_CornerLabelView).setOnClickListener(this);
 		return view;
 	}
 
@@ -31,6 +33,9 @@ public class ThirdFragment extends Fragment implements View.OnClickListener {
 				break;
 			case R.id.btn_LoadData:
 				intent = new Intent(getActivity(), LoadDataActivity.class);
+				break;
+			case R.id.btn_CornerLabelView:
+				intent = new Intent(getActivity(), CornerLabelViewActivity.class);
 				break;
 			default:
 				break;

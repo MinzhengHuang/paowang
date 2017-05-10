@@ -53,6 +53,7 @@
         <activity android:name=".activity.loaddata.LoadDataActivity" ></activity>
         <activity android:name=".activity.loaddata.LoadDataSample1Activity" ></activity>
         <activity android:name=".activity.loaddata.LoadDataSample2Activity" ></activity>
+        <activity android:name=".activity.CornerLabelViewActivity" ></activity>
     </application>
 
 </manifest>
