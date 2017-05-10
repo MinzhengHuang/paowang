@@ -24,7 +24,7 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends FragmentActivity implements OnClickListener,
+public class PaoWangMainActivity extends FragmentActivity implements OnClickListener,
 		OnPageChangeListener {
 
 	private ViewPager mViewPager;
@@ -36,7 +36,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_main_paowang);
 		setOverflowButtonAlways();
 
 		initView();
@@ -56,14 +56,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 	}
 
 	private void initDatas() {
-//		for (String title : mTitles) {
-//			TabFragment tabFragment = new TabFragment();
-//			Bundle bundle = new Bundle();
-//			bundle.putString(TabFragment.TITLE, title);
-//			tabFragment.setArguments(bundle);
-//			mTabs.add(tabFragment);
-//		}
-		
 		FirstFragment firstFragment=new FirstFragment();
 		SecondFragment secondFragment=new SecondFragment();
 		ThirdFragment thirdFragment=new ThirdFragment();
