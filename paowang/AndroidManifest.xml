@@ -54,6 +54,7 @@
         <activity android:name=".activity.loaddata.LoadDataSample1Activity" ></activity>
         <activity android:name=".activity.loaddata.LoadDataSample2Activity" ></activity>
         <activity android:name=".activity.CornerLabelViewActivity" ></activity>
+        <activity android:name=".activity.NumberAnimTextViewActivity" ></activity>
     </application>
 
 </manifest>

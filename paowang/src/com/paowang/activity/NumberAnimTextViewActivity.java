@@ -1,13 +1,14 @@
 package com.paowang.activity;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import me.bakumon.numberanimtextview.NumberAnimTextView;
+import com.paowang.R;
+import com.paowang.view.NumberAnimTextView;
 
 
-public class NumberAnimTextViewActivity extends AppCompatActivity {
+public class NumberAnimTextViewActivity extends Activity {
 
     private NumberAnimTextView mNumberAnimTextView;
     private NumberAnimTextView mNumberAnimTextView1;
