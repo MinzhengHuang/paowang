@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import com.paowang.R;
 import com.paowang.activity.CornerLabelViewActivity;
 import com.paowang.activity.NumberAnimTextViewActivity;
+import com.paowang.activity.StepViewActivity;
 import com.paowang.activity.ToastyActivity;
 import com.paowang.activity.loaddata.LoadDataActivity;
 
@@ -23,6 +24,7 @@ public class ThirdFragment extends Fragment implements View.OnClickListener {
 		view.findViewById(R.id.btn_LoadData).setOnClickListener(this);
 		view.findViewById(R.id.btn_CornerLabelView).setOnClickListener(this);
 		view.findViewById(R.id.btn_NumberAnimTextView).setOnClickListener(this);
+		view.findViewById(R.id.btn_StepView).setOnClickListener(this);
 		return view;
 	}
 
@@ -41,6 +43,9 @@ public class ThirdFragment extends Fragment implements View.OnClickListener {
 				break;
 			case R.id.btn_NumberAnimTextView:
 				intent = new Intent(getActivity(), NumberAnimTextViewActivity.class);
+				break;
+			case R.id.btn_StepView:
+				intent = new Intent(getActivity(), StepViewActivity.class);
 				break;
 			default:
 				break;
